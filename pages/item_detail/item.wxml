@@ -1,6 +1,23 @@
 <!--logs.wxml-->
-<view class="container log-list">
-  <block wx:for="{{goods}}">
-    <text class="log-item">{{item}}</text>
-  </block>
+<view>
+  <view>
+    <image style="width: 300px; height: 300px; background-color: #eeeeee;" mode="aspectFit" src="{{item.src}}"> </image>
+  <view class="weui-panel weui-panel_access">  
+      <text class="credit_cost" style="color: #FF0000;">所需积分: {{item.credit}}</text>
+      <view style="float : right;">
+      </view>
+    </view>
+    <text class="detail_txt"> 介绍：{{item.detail}}</text>
+  </view>
+
+  <view class="weui-panel__ft">  
+    <button class="weui-btn" type="primary" style="bottom:0rpx;margin-top:80rpx;" bindtap="confirm">
+      确认兑换
+    </button>
+  </view>  
+
+
+  <view class="page__bd page__bd_spacing">
+  </view>
+
 </view>

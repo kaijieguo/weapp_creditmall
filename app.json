@@ -1,12 +1,13 @@
 {
   "pages":[
     "pages/item_list/index",
-    "pages/item_detail/logs"
+    "pages/item_detail/item",
+    "pages/exchange/exchange"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "积分兑换商城",
+    "navigationBarTitleText": "积分商城DEMO",
     "navigationBarTextStyle":"black"
   }
 }

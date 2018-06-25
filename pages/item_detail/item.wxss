@@ -1,0 +1,12 @@
+/* pages/item_detail/item.wxss */
+.credit_cost {
+    margin-top: 25rpx;
+    margin-left: 15rpx;
+    margin-bottom: 25rpx;
+    padding:5px;
+    font-size: 14px;
+    display: flex;
+}
+
+.detail_txt {
+}
